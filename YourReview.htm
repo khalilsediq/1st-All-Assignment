@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Your Review
+    </title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <nav class="navbar-second">
+        <div class="logo">
+            <img src="./img/WhatsApp Image 2025-04-21 at 5.21.11 PM.jpeg" alt="logo">
+        </div>
+        <ul class="ul-navbar">
+            <li class="btn-h">
+                <a href="./index.html">
+                    Home
+                </a>
+            </li>
+            <li class="btn-periodic">
+                <a href="./PeriodicTable.htm">
+                    Periodic Table
+                </a>
+            </li>
+            <li class="btn-resume">
+                <a href="./resume.htm">
+                    Resume
+                </a>
+            </li>
+            <li class="btn-form">
+                <a href="./index.htm">
+                    Form
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="nav-sec">
+        <!-- <ul class="nav-unorderd">
+            <li id="step-1">
+                Step 1: Account
+            </li >
+            <li  >
+                Step 2: Personal Details
+            </li>
+            <li >
+                Step 3: Your Review
+            </li>
+        </ul> -->
+
+        <a href="./AccountForm.htm"><button class="step-1">
+            Step 1: Account
+        </button></a>
+      <a href="./PersonalDetails.htm">  <button class="step-2">
+            Step 2: Personal Details
+        </button></a>
+       <a href="./YourReview.htm"> <button class="step-3">
+            Step 3: Your Review
+        </button></a>
+    
+    </div>
+
+    <div class="container">
+        <fieldset>
+            <legend>
+                Account
+            </legend>
+
+            <form action="#">
+            <label for="about us" class="cus-label">
+                How did you hear about us?
+            </label>
+           <select name="select your option" id="select your option" class="cus-input">
+            <option value="select your option" disabled>
+                select your option
+            </option>
+            <option value="Youtube">
+                Youtube 
+            </option>
+            <option value="Facebook">
+                Facebook
+            </option>
+            <option value="From a friend">
+                From a friend
+            </option>
+           </select>
+
+           <label for="Would you visit again" class="radio-label-visit">
+            Would you visit again?
+           </label>
+           <input type="radio" name="Would you visit again" id="Would you visit again" class="radio-input">
+           <label for="Yes" class="radio-label">
+            Yes
+          </label>
+          <input type="radio" name="Would you visit again" id="Would You Visit again" class="radio-input">
+          <label for="No" class="radio-label">
+            No
+          </label>
+          <input type="radio" name="Would you visit again" id="Would you visit again" class="radio-input">
+          <label for="Maybe" class="radio-label">
+            Maybe
+          </label>
+                  
+          <label for="comment" class="cus-label">Comment:</label>
+    <textarea id="comment" name="comment" rows="8" cols="50" required></textarea>
+
+          <label for="Documents" class="cus-label">
+            Documents:
+          </label>
+          <input type="file" name="Documents" id="Documents" placeholder="Choose file" class="document-imput">
+
+            <br>
+           <a href="./PersonalDetails.htm"> <img src="./img/back.png" alt="back btn" class="b-n"></a>
+
+           <!-- <a href=""> <img src="./img/next.png" alt="next btn" class="b-n"></a> -->
+
+        </form>
+        </fieldset>
+
+        
+    </div>
+
+
+
+</body>
+</html>
