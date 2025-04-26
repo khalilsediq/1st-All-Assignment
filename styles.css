@@ -517,10 +517,10 @@ td:hover {
     
 }
 .sec-img{
-   width: 150px;
+   width: 260px;
     border-radius: 50px;
     margin-left: 100px;
-    margin-top: 40px;
+    margin-top: 130px;
     cursor: pointer;
     transition: transform 0.125s;
 }
